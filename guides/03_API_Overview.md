@@ -38,6 +38,10 @@ Using the above objects, create a [DefaultMeetingSession](https://aws.github.io/
 const meetingSession = new DefaultMeetingSession(configuration, logger, deviceController);
 ```
 
+### 1e. Create a meeting from your server application
+
+In your meeting service, you can create a Chime object without the Amazon Chime SDK for JavaScript. See [Getting responses from your server application](https://github.com/aws/amazon-chime-sdk-js#getting-responses-from-your-server-application) for more information.
+
 ## 2. Configure the session
 
 Before starting the meeting session, you should configure audio and video devices. By default, no devices are selected.
