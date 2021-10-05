@@ -13,6 +13,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Add `bindToTileController` optional method to `VideoDownlinkBandwidthPolicy`.
   
 ### Removed
+- Remove Getting Started documentation guide.
 
 ### Fixed
 

@@ -183,9 +183,9 @@ You may optionally listen to the following callbacks to monitor aspects of conne
 
 ## 4. Start and stop the session
 
-After completing configuration of audio and video (see previous sections) call `meetingSession.audioVideo.[start()](https://aws.github.io/amazon-chime-sdk-js/interfaces/audiovideofacade.html#start)`. This method will initialize all underlying components, set up connections, and immediately start sending and receiving audio.
+After completing configuration of audio and video (see previous sections) call meetingSession.audioVideo.[start()](https://aws.github.io/amazon-chime-sdk-js/interfaces/audiovideofacade.html#start). This method will initialize all underlying components, set up connections, and immediately start sending and receiving audio.
 
-To stop the meeting session, call `meetingSession.audioVideo.[stop()](https://aws.github.io/amazon-chime-sdk-js/interfaces/audiovideofacade.html#stop)`.
+To stop the meeting session, call meetingSession.audioVideo.[stop()](https://aws.github.io/amazon-chime-sdk-js/interfaces/audiovideofacade.html#stop).
 
 The `stop()` method does not clean up observers. You can start and stop a session multiple times using the same observers. In other words observers are not tied to the lifecycle of the session.
 
